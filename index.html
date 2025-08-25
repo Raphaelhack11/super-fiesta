@@ -2,12 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profit Bliss</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Profit Bliss - Cryptocurrency Investment</title>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    
+    <!-- Add meta tags for SEO -->
+    <meta name="description" content="Profit Bliss is your trusted platform for cryptocurrency investments and growth." />
+    <meta name="author" content="Profit Bliss Team" />
+
+    <!-- Add Open Graph meta tags for social media preview -->
+    <meta property="og:title" content="Profit Bliss - Cryptocurrency Investment" />
+    <meta property="og:description" content="Join Profit Bliss and grow your cryptocurrency portfolio." />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta property="og:url" content="https://profit-bliss.com" />
+    
+    <!-- Add Twitter Card meta tags -->
+    <meta name="twitter:title" content="Profit Bliss" />
+    <meta name="twitter:description" content="Cryptocurrency investments made easy." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Link to Google Fonts or other external styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/styles.css" />
+
+    <!-- Link to your external stylesheets or assets -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/main.css" />
+
+    <!-- Any other additional head elements -->
   </head>
-  <body class="bg-white dark:bg-gray-900">
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <!-- This is the root div where React will mount the app -->
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Your app's JavaScript will be injected here by React/Vite -->
+    <script type="module" src="%PUBLIC_URL%/assets/main.js"></script>
   </body>
 </html>
