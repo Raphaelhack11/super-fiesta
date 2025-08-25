@@ -7,19 +7,19 @@ export default function DashboardPage() {
     {
       name: "Basic",
       price: "$100 - $499",
-      returnRate: "5% Weekly",
+      returnRate: "40% Weekly",
       color: "bg-gray-100 dark:bg-gray-800",
     },
     {
       name: "Gold",
       price: "$500 - $1,999",
-      returnRate: "7% Weekly",
+      returnRate: "65% Weekly",
       color: "bg-yellow-100 dark:bg-yellow-900",
     },
     {
       name: "Master",
       price: "$2,000 - $4,999",
-      returnRate: "10% Weekly",
+      returnRate: "80% Weekly",
       color: "bg-yellow-200 dark:bg-yellow-800",
     },
     {
